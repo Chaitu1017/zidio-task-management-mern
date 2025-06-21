@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+/* Existing styles retained */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #10b416;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(182, 31, 31);
+}
+
+.App-link {
+  color: #a04f81;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 🔹 New Responsive Styles Below 🔹 */
+
+/* Make the container flexible */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Ensure images and other media scale properly */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improve button and input responsiveness */
+button,
+input {
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Responsive Layout for Smaller Screens */
+@media (max-width: 768px) {
+  .App-header {
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button,
+  input {
+    width: 100%;
+  }
+}
+/* styles/glass.css */
+.bg-glass {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+.neon-text {
+  color: #add044;
+  text-shadow: 0 0 5px #13a12d, 0 0 10px #058940;
+}
+
+.glass {
+  backdrop-filter: blur(15px);
+  background: rgba(42, 166, 185, 0.05);
+  border-radius: 1rem;
+}
+
+select {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+select:focus {
+  outline: none;
+  border-color: #36c31a;
+}
