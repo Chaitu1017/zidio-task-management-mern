@@ -58,13 +58,37 @@ npm install
 npm start
 ```
 
-### 📸 Screenshots
+## 📸 Screenshots
 
-```bash
-home page
-
-![image](https://github.com/user-attachments/assets/72b48c8a-65cc-4db9-9cbc-03fa39bf245d)
-
-```
-
-
+### 🏠 Home Page
+![Home](./screenshots/home.png)
+### Login page
+![Login](./screenshots/login.png)
+### Sign up page
+![signup](./screenshots/signup.png)
+### Employee Dash Board
+![ED](./screenshots/employeedash.png)
+### Manager Dash Board
+![MD](./screenshots/managerdashboard.png)
+### Manager Task 
+![MT](./screenshots/managertaskassign.png)
+### Manager Task Assigining
+![MAT](./screenshots/assigningtask.png)
+### Task Successful assign
+![TSA](./screenshots/assignsuccess.png)
+### Meeting page
+![MP](./screenshots/meeting.png)
+### Task Page
+![TP](./screenshots/task.png)
+### Calendar View
+![CV](./screenshots/calendar.png)
+### About us
+![Aboutus](./screenshots/aboutus.png)
+### services
+![Services](./screenshots/services.png)
+### Career Page
+![Career](./screenshots/career.png)
+### Get in touch page
+![Touch](./screenshots/gettouch.png)
+### Task Analysis Page
+![TA](./screenshots/taskanalysis.png)
