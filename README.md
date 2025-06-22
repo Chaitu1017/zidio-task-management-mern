@@ -58,6 +58,13 @@ npm install
 npm start
 ```
 
+### 📸 Screenshots
 
+```bash
+home page
+
+![image](https://github.com/user-attachments/assets/72b48c8a-65cc-4db9-9cbc-03fa39bf245d)
+
+```
 
 
